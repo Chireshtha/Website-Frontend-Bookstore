@@ -1,0 +1,75 @@
+.book-details-container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 70px;
+    animation: fadeIn 1.3s ease-in-out;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.row .img-fluid{
+    width: 400px;
+    height: 520px;
+}
+.row .col-md-8{
+    margin-top: 20px;
+}
+.row .col-md-8 h1{
+    font-family: Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: justify;
+}
+.row .col-md-8 h3{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+.row .col-md-8 p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #444;
+}
+.row .price-details{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.add-to-cart-btn{
+    margin-right: 20px;
+    transition: transform 0.4s ease-in-out;
+}
+.add-to-cart-btn:hover{
+    transform: scale(1.05);
+}
+.buy-now-btn{
+    transition: transform 0.4s ease-in-out;
+}
+.buy-now-btn:hover{
+    transform: scale(1.05);
+}
+
+.book-not-found{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color:#444;
+}    
+
+ 
+

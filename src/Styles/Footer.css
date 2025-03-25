@@ -1,0 +1,54 @@
+
+    .custom-footer {
+        width: 100%;
+        min-height: 60vh;
+        font-size: 18px;
+        padding: 20px;
+        font-family: "Pathway Extreme", "Sans-serif";
+    }
+
+.footer-container{
+    width: 80%;
+}
+
+.logo img{
+    margin: 120px auto;
+    width: 120px;
+    height: 120px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.nav-link {
+    color: #fff !important;
+    transition: transform 0.6s ease-in-out;
+}
+
+.book-link address{
+    transition: transform 0.6s ease-in-out !important;
+}
+.footer .link{
+    transition: transform 0.6s ease-in-out;
+}
+.footer .link i{
+    margin-left: 10px;
+    padding: 3px 7px 7px 7px;
+    border-radius: 7px;
+}
+.fa-facebook {
+    background: hsl(221, 98%, 35%);
+    color: #fff;
+}
+.fa-instagram {
+    background: linear-gradient(135deg, rgba(0, 38, 150, 1) 0%, rgba(130, 0, 143, 1) 35%, rgba(192, 0, 122, 1) 51%, rgba(234, 12, 95, 1) 58%, rgba(255, 83, 65, 1) 69%, rgba(255, 136, 32, 1) 76%, rgba(246, 186, 0, 1) 100%);
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.footer img:hover, .book-link address:hover, .nav-link:hover, .link:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
