@@ -35,5 +35,5 @@ npm run deploy
 ```
 
 ##  Live Demo
-Check out the live website: [Live Demo](https://chireshtha.github.io)
+Check out the live website: [Live Demo](https://chireshtha.github.io/Website-Frontend-Bookstore/)
 
